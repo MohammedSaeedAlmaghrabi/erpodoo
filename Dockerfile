@@ -1,4 +1,3 @@
-
 # استخدام Python 3.10 كقاعدة
 FROM python:3.10-slim
 
@@ -14,7 +13,6 @@ RUN apt-get update && apt-get install -y \
     libjpeg-dev \
     zlib1g-dev \
     libpq-dev \
-    wkhtmltopdf \
     && rm -rf /var/lib/apt/lists/*
 
 # إنشاء مستخدم لـ Odoo
