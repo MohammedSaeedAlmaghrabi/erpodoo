@@ -1,3 +1,6 @@
+# استخدام Python 3.10 كقاعدة
+FROM python:3.10-slim
+
 # تحديث setuptools أولاً لتجنب مشكلة pkg_resources
 RUN pip install --upgrade pip setuptools wheel
 
